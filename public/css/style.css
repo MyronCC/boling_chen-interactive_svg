@@ -1,0 +1,99 @@
+* { box-sizing: border-box; }
+
+
+body { 
+  background-color: bisque;
+  color: black; font-size: 14px; }
+
+.buffer { min-height: 100vh }
+
+main { padding: 40px; 
+background: url(../images/nissin_logo.svg) center center no-repeat;
+  background-size: 50%; 
+}
+
+section { margin-bottom: 100px; color: white; }
+
+section > div:not(.text-wrapper) {
+   display:
+  inline-block;
+  background-color:none;
+  text-align: center;
+  padding: 20px;
+  position:relative;
+}
+
+.text-wrapper {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 30px;
+  width: 65%;
+}
+
+section h3 {
+  display: inline-block;
+  color: black;
+  font-family: 'brewery', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 0
+}
+section p { color: black; width: 70%; font-size: 1.25rem; }
+
+.hidden { display: none; }
+
+.svg-graphic { width: 280px; }
+
+.main-header {
+  margin: 20px 0 0 40px; 
+  font-size: 5rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+}
+
+.sub-header {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+.ramen-image {
+  width: 50%;
+}
+
+p > span { display: block; padding-bottom: 12px; }
+
+.popover { 
+  display: none;
+  position: absolute;
+  top: 88%;
+  right: 12.5%;
+  background-color:none;
+  width: 75%;
+  background-color: rgb(205, 245, 243);
+  z-index: -1;
+  border-radius: 8px;
+  border: 1px rgb(205, 245, 243) solid;
+  padding: 4px;
+
+}
+.show-popover div{
+  padding: 15px;
+  font-weight: bold;
+}
+
+.show-popover { display: block; }
+
+.see-more { 
+  display: block; 
+  padding: 12px 18px; 
+  border-radius: 8px;
+  color: #000; 
+  background-color: rgb(161, 243, 239); 
+  margin-top: 8px
+}
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+}

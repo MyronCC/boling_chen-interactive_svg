@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/style.css">
+    <!-- import waypoint and gsap -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+
+    <title>Nissin ramen in Japan</title>
+</head>
+<body>
+    <h1 class="main-header">Nissin ramen in Japan</h1>
+    <h2 class="sub-header">There are four type of ramen packages saled in Japan, and the following gragh caculate the specific data.</h2>
+    <main>
+        <!-- if we were using a framework, these might be 6-col or something-->
+        <div class="row">
+        <section id="ramen1">
+          <div class="label_wrapper">
+            <h1 class="hidden">Bowl ramen</h1>
+            <img class="ramen-image" src="images/poster4.png" alt="bowl">
+            <span class="see-more" data-target="1">Bowl</span>
+          </div>
+
+        </section>
+
+        <section id="ramen2">
+          <div class="label_wrapper">
+            <h1 class="hidden">Cup ramen</h1>
+            <img class="ramen-image" src="images/poster5.png" alt="cup">
+            <span class="see-more" data-target="2">Cup</span>
+          </div>
+
+        </section>
+      
+        <section id="ramen3">
+          <div class="label_wrapper">
+            <h1 class="hidden">Tray ramen</h1>
+            <img class="ramen-image" src="images/poster3.png" alt="tray">
+            <span class="see-more" data-target="3">Tray</span>
+          </div>
+
+        </section>
+
+        <section id="ramen4">
+          <div class="label_wrapper">
+            <h1 class="hidden">Pack ramen</h1>
+            <img class="ramen-image" src="images/poster2.png" alt="pack">
+            <span class="see-more" data-target="4">Pack</span>
+          </div>
+
+          
+        </section>
+      </div>
+
+        <article class="popover">
+          <h4 class="sort">Total sort:</h4>
+          <div class="ratings">Average Rating:</div>
+          <div class="ramen-prize">Prize:</div>
+        </article>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
